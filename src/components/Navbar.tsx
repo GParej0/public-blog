@@ -7,8 +7,8 @@ export default function Navbar() {
                 <Link to="/">Blog</Link>
             </div>
             <div className="nav-links">
-                <Link to="/auth/signup">Sign up</Link>
-                <Link to="/auth/login">Log in</Link>
+                <Link to="https://mi-blog-privado.netlify.app/signup">Sign up</Link>
+                <Link to="https://mi-blog-privado.netlify.app/login">Log in</Link>
             </div>
         </nav>
     );
