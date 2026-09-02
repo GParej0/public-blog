@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import App from './App.tsx'
 import HomePage from './pages/HomePage.tsx';
 import PostDetails from './pages/PostDetailPage.tsx';
+import NotFound from './components/NotFound.tsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         element: <PostDetails />
       }
     ]
+  },
+  {
+    path: "*",
+    element: <NotFound />
   }
 ])
 
